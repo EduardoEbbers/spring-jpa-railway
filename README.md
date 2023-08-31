@@ -16,7 +16,7 @@ classDiagram
 
   class Account {
     -String number
-    -Account agency
+    -String agency
     -Number balance
     -Number limit
   }

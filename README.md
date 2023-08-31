@@ -7,6 +7,7 @@ Projeto em springboot, jpa e railway
 
 classDiagram
   class User {
+    -Long id
     -String name
     -Account account
     -Feature[] features
@@ -15,6 +16,7 @@ classDiagram
   }
 
   class Account {
+    -Long id
     -String number
     -String agency
     -Number balance
@@ -22,17 +24,20 @@ classDiagram
   }
 
   class Feature {
+    -Long id
     -String icon
     -String description
   }
 
   
   class Card {
+    -Long id
     -String number
     -Number limit
   }
 
   class News {
+    -Long id
     -String icon
     -String description
   }
